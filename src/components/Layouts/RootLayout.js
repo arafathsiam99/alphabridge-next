@@ -9,8 +9,9 @@ import {
   theme,
 } from "antd";
 import Link from "next/link";
-const { Header, Content, Footer } = Layout;
+import { useSession, signOut } from "next-auth/react";
 
+const { Header, Content, Footer } = Layout;
 const items = [
   {
     key: "1",
@@ -69,11 +70,12 @@ const items = [
     ),
   },
 ];
+
 const RootLayout = ({ children }) => {
   const {
     token: { colorBgContainer },
   } = theme.useToken();
-
+  const { data: session } = useSession();
   return (
     <Layout className="layout">
       <Header
@@ -108,10 +110,15 @@ const RootLayout = ({ children }) => {
             Categories
           </Button>
         </Dropdown>
-        <Link href="/login">
-          <Button type="primary">Login</Button>
-        </Link>
-        <Button type="primary">Logout</Button>
+        {session?.user ? (
+          <Button type="primary" onClick={() => signOut()}>
+            Logout
+          </Button>
+        ) : (
+          <Link href="/login">
+            <Button type="primary">Login</Button>
+          </Link>
+        )}
 
         <Link href="/pcbuilder">
           <Button type="primary">Pc Builder</Button>
