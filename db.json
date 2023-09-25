@@ -1,0 +1,114 @@
+{
+  "featured_products": [
+    {
+      "id": 1,
+      "Name": "Intel Core i9-11900K Processor",
+      "Category": "CPU",
+      "Price": 499.99,
+      "Status": "In Stock",
+      "Rating": 4.8,
+      "image_url": "/images/71diouNMRHL.jpg"
+    },
+    {
+      "id": 2,
+      "Name": "NVIDIA GeForce RTX 3080 Graphics Card",
+      "Category": "GPU",
+      "Price": 799.99,
+      "Status": "Out of Stock",
+      "Rating": 4.9,
+      "image_url": "/images/download (2).jpeg"
+    },
+    {
+      "id": 3,
+      "Name": "Corsair Vengeance LPX 32GB RAM",
+      "Category": "RAM",
+      "Price": 149.99,
+      "Status": "In Stock",
+      "Rating": 4.7,
+      "image_url": "/images/corsair-vengeance-lpx-8gb-ram-01.jpg-600x315w.jpg.webp"
+    },
+    {
+      "id": 4,
+      "Name": "Samsung 970 EVO 1TB NVMe SSD",
+      "Category": "Storage",
+      "Price": 149.99,
+      "Status": "In Stock",
+      "Rating": 4.6,
+      "image_url": "/images/download (1).jpeg"
+    },
+    {
+      "id": 5,
+      "Name": "ASUS ROG Strix B550-F Gaming Motherboard",
+      "Category": "Motherboard",
+      "Price": 169.99,
+      "Status": "Out of Stock",
+      "Rating": 4.5,
+      "image_url": "/images/download.jpeg"
+    },
+    {
+      "id": 6,
+      "Name": "EVGA 850W 80+ Gold Certified Power Supply",
+      "Category": "Power Supply",
+      "Price": 119.99,
+      "Status": "In Stock",
+      "Rating": 4.7,
+      "image_url": "/images/220-G3-0850-X1_LG_1.png"
+    }
+  ],
+  "featured_categories": [
+    {
+      "id": 1,
+      "Name": "CPU / Processor",
+      "Category": "CPU / Processor",
+      "Price": 499.99,
+      "Status": "In Stock",
+      "Rating": 4.8,
+      "image_url": "/images/71diouNMRHL.jpg"
+    },
+    {
+      "id": 2,
+      "Name": "Motherboard",
+      "Category": "Motherboard",
+      "Price": 799.99,
+      "Status": "Out of Stock",
+      "Rating": 4.9,
+      "image_url": "/images/download (2).jpeg"
+    },
+    {
+      "id": 3,
+      "Name": "RAM",
+      "Category": "RAM",
+      "Price": 149.99,
+      "Status": "In Stock",
+      "Rating": 4.7,
+      "image_url": "/images/corsair-vengeance-lpx-8gb-ram-01.jpg-600x315w.jpg.webp"
+    },
+    {
+      "id": 4,
+      "Name": "Power Supply Unit",
+      "Category": "Power Supply Unit",
+      "Price": 149.99,
+      "Status": "In Stock",
+      "Rating": 4.6,
+      "image_url": "/images/download (1).jpeg"
+    },
+    {
+      "id": 5,
+      "Name": "Monitor",
+      "Category": "Monitor",
+      "Price": 169.99,
+      "Status": "Out of Stock",
+      "Rating": 4.5,
+      "image_url": "/images/download.jpeg"
+    },
+    {
+      "id": 6,
+      "Name": "Others (GPU, Mouse, Keyboard, etc…)",
+      "Category": "Others (GPU, Mouse, Keyboard, etc…)",
+      "Price": 119.99,
+      "Status": "In Stock",
+      "Rating": 4.7,
+      "image_url": "/images/220-G3-0850-X1_LG_1.png"
+    }
+  ]
+}
