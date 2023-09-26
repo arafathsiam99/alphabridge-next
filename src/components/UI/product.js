@@ -45,7 +45,6 @@ const Products = ({ products }) => {
                     src={product?.image_url}
                     width={500}
                     height={200}
-                    responsive
                     alt="pc component image"
                   />
                 }
@@ -76,8 +75,8 @@ const Products = ({ products }) => {
                   <p>{product?.Rating}</p>
                 </div>
 
-                <Link href="">
-                  <p
+                <Link href={`/product/${product?.id}`}>
+                  <button
                     style={{
                       fontSize: "15px",
                       marginTop: "20px",
@@ -91,7 +90,7 @@ const Products = ({ products }) => {
                     }}
                   >
                     Details
-                  </p>
+                  </button>
                 </Link>
               </Card>
             </Col>

@@ -42,7 +42,6 @@ const Categories = ({ categories }) => {
                   src={category?.image_url}
                   width={500}
                   height={200}
-                  responsive
                   alt="pc component image"
                 />
               }

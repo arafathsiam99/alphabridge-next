@@ -33,12 +33,24 @@ HomePage.getLayout = function getLayout(page) {
 };
 
 export const getStaticProps = async () => {
-  const res1 = await fetch("http://localhost:5000/featured_products");
-  const res2 = await fetch("http://localhost:5000/featured_categories");
-  const data1 = await res1.json();
-  const data2 = await res2.json();
-  // console.log(data);
-  return {
-    props: { products: data1, categories: data2 },
-  };
+  try {
+    const res1 = await fetch("http://localhost:5000/featured_products");
+    const res2 = await fetch("http://localhost:5000/featured_categories");
+
+    if (!res1.ok || !res2.ok) {
+      throw new Error("Failed to fetch data");
+    }
+
+    const data1 = await res1.json();
+    const data2 = await res2.json();
+
+    return {
+      props: { products: data1, categories: data2 },
+    };
+  } catch (error) {
+    console.error("Error fetching data:", error);
+    return {
+      props: { products: [], categories: [] }, // Provide default values or handle the error gracefully.
+    };
+  }
 };

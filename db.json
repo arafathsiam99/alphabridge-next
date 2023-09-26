@@ -1,63 +1,141 @@
 {
   "featured_products": [
     {
-      "id": 1,
+      "id": "1",
       "Name": "Intel Core i9-11900K Processor",
       "Category": "CPU",
       "Price": 499.99,
       "Status": "In Stock",
       "Rating": 4.8,
-      "image_url": "/images/71diouNMRHL.jpg"
+      "image_url": "/images/71diouNMRHL.jpg",
+      "Description": "The Intel Core i9-11900K is a high-performance CPU known for its exceptional speed and power. It is designed for gaming and demanding computing tasks.",
+      "Key_Features": {
+        "Brand": "Intel",
+        "Model": "Core i9-11900K",
+        "Specification": "12 cores, 24 threads",
+        "Port": "LGA 1200",
+        "Type": "Desktop",
+        "Voltage": "1.5V",
+        "Resolution": "N/A"
+      },
+      "Individual_Rating": 4.8,
+      "Average_Rating": 4.8,
+      "Review": "Excellent CPU for gaming and multitasking. It delivers outstanding performance."
     },
     {
-      "id": 2,
+      "id": " 2",
       "Name": "NVIDIA GeForce RTX 3080 Graphics Card",
       "Category": "GPU",
       "Price": 799.99,
       "Status": "Out of Stock",
       "Rating": 4.9,
-      "image_url": "/images/download (2).jpeg"
+      "image_url": "/images/download (2).jpeg",
+      "Description": "The NVIDIA GeForce RTX 3080 is a high-end graphics card known for its exceptional gaming and rendering performance.",
+      "Key_Features": {
+        "Brand": "NVIDIA",
+        "Model": "GeForce RTX 3080",
+        "Specification": "10GB GDDR6X VRAM",
+        "Port": "PCI Express 4.0",
+        "Type": "Desktop",
+        "Voltage": "N/A",
+        "Resolution": "8K"
+      },
+      "Individual_Rating": 4.9,
+      "Average_Rating": 4.9,
+      "Review": "Outstanding GPU, but it's frequently out of stock due to high demand."
     },
     {
-      "id": 3,
+      "id": "3",
       "Name": "Corsair Vengeance LPX 32GB RAM",
       "Category": "RAM",
       "Price": 149.99,
       "Status": "In Stock",
       "Rating": 4.7,
-      "image_url": "/images/corsair-vengeance-lpx-8gb-ram-01.jpg-600x315w.jpg.webp"
+      "image_url": "/images/corsair-vengeance-lpx-8gb-ram-01.jpg-600x315w.jpg.webp",
+      "Description": "Corsair Vengeance LPX RAM offers reliable and fast memory performance for gaming and content creation.",
+      "Key_Features": {
+        "Brand": "Corsair",
+        "Model": "Vengeance LPX",
+        "Specification": "32GB (2 x 16GB) DDR4 3200MHz",
+        "Port": "288-pin DIMM",
+        "Type": "Desktop",
+        "Voltage": "1.35V",
+        "Resolution": "N/A"
+      },
+      "Individual_Rating": 4.7,
+      "Average_Rating": 4.7,
+      "Review": "Great RAM for the price, and it enhances system performance noticeably."
     },
     {
-      "id": 4,
+      "id": "4",
       "Name": "Samsung 970 EVO 1TB NVMe SSD",
       "Category": "Storage",
       "Price": 149.99,
       "Status": "In Stock",
       "Rating": 4.6,
-      "image_url": "/images/download (1).jpeg"
+      "image_url": "/images/download (1).jpeg",
+      "Description": "The Samsung 970 EVO NVMe SSD offers lightning-fast storage performance for quick data access and transfer.",
+      "Key_Features": {
+        "Brand": "Samsung",
+        "Model": "970 EVO",
+        "Specification": "1TB NVMe M.2",
+        "Port": "M.2",
+        "Type": "Internal SSD",
+        "Voltage": "N/A",
+        "Resolution": "N/A"
+      },
+      "Individual_Rating": 4.6,
+      "Average_Rating": 4.6,
+      "Review": "Fast SSD, great for speeding up your computer's performance."
     },
     {
-      "id": 5,
+      "id": "5",
       "Name": "ASUS ROG Strix B550-F Gaming Motherboard",
       "Category": "Motherboard",
       "Price": 169.99,
       "Status": "Out of Stock",
       "Rating": 4.5,
-      "image_url": "/images/download.jpeg"
+      "image_url": "/images/download.jpeg",
+      "Description": "The ASUS ROG Strix B550-F is a gaming motherboard known for its robust features and performance.",
+      "Key_Features": {
+        "Brand": "ASUS",
+        "Model": "ROG Strix B550-F",
+        "Specification": "ATX, AMD AM4 socket",
+        "Port": "PCIe 4.0, USB 3.2 Gen 2",
+        "Type": "Desktop",
+        "Voltage": "N/A",
+        "Resolution": "N/A"
+      },
+      "Individual_Rating": 4.5,
+      "Average_Rating": 4.5,
+      "Review": "Great motherboard, but it's often out of stock."
     },
     {
-      "id": 6,
+      "id": "6",
       "Name": "EVGA 850W 80+ Gold Certified Power Supply",
       "Category": "Power Supply",
       "Price": 119.99,
       "Status": "In Stock",
       "Rating": 4.7,
-      "image_url": "/images/220-G3-0850-X1_LG_1.png"
+      "image_url": "/images/220-G3-0850-X1_LG_1.png",
+      "Description": "The EVGA 850W 80+ Gold Certified Power Supply delivers stable and efficient power to your PC components.",
+      "Key_Features": {
+        "Brand": "EVGA",
+        "Model": "850W 80+ Gold",
+        "Specification": "850W, 80+ Gold certified",
+        "Port": "ATX 12V",
+        "Type": "Desktop",
+        "Voltage": "100-240V",
+        "Resolution": "N/A"
+      },
+      "Individual_Rating": 4.7,
+      "Average_Rating": 4.7,
+      "Review": "Reliable power supply unit with good efficiency."
     }
   ],
   "featured_categories": [
     {
-      "id": 1,
+      "id": "1",
       "Name": "CPU / Processor",
       "Category": "CPU / Processor",
       "Price": 499.99,
@@ -66,7 +144,7 @@
       "image_url": "/images/71diouNMRHL.jpg"
     },
     {
-      "id": 2,
+      "id": "2",
       "Name": "Motherboard",
       "Category": "Motherboard",
       "Price": 799.99,
@@ -75,7 +153,7 @@
       "image_url": "/images/download (2).jpeg"
     },
     {
-      "id": 3,
+      "id": "3",
       "Name": "RAM",
       "Category": "RAM",
       "Price": 149.99,
@@ -84,7 +162,7 @@
       "image_url": "/images/corsair-vengeance-lpx-8gb-ram-01.jpg-600x315w.jpg.webp"
     },
     {
-      "id": 4,
+      "id": "4",
       "Name": "Power Supply Unit",
       "Category": "Power Supply Unit",
       "Price": 149.99,
@@ -93,7 +171,7 @@
       "image_url": "/images/download (1).jpeg"
     },
     {
-      "id": 5,
+      "id": "5",
       "Name": "Monitor",
       "Category": "Monitor",
       "Price": 169.99,
@@ -102,7 +180,7 @@
       "image_url": "/images/download.jpeg"
     },
     {
-      "id": 6,
+      "id": "6",
       "Name": "Others (GPU, Mouse, Keyboard, etc…)",
       "Category": "Others (GPU, Mouse, Keyboard, etc…)",
       "Price": 119.99,
