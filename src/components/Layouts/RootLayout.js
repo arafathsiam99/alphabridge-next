@@ -1,13 +1,4 @@
-import {
-  Breadcrumb,
-  Button,
-  Col,
-  Dropdown,
-  Layout,
-  Menu,
-  Row,
-  theme,
-} from "antd";
+import { Button, Dropdown, Layout, theme } from "antd";
 import Link from "next/link";
 import { useSession, signOut } from "next-auth/react";
 
@@ -76,6 +67,7 @@ const RootLayout = ({ children }) => {
     token: { colorBgContainer },
   } = theme.useToken();
   const { data: session } = useSession();
+
   return (
     <Layout className="layout">
       <Header
@@ -86,14 +78,16 @@ const RootLayout = ({ children }) => {
           backgroundColor: "#450fef",
         }}
       >
-        <h1
-          style={{
-            color: "white",
-            fontSize: "28px",
-          }}
-        >
-          Alpha Bridge
-        </h1>
+        <Link href="/">
+          <h1
+            style={{
+              color: "white",
+              fontSize: "28px",
+            }}
+          >
+            Alpha Bridge
+          </h1>
+        </Link>
         <Dropdown
           menu={{
             items,
