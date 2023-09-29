@@ -37,7 +37,7 @@ const Products = ({ products }) => {
           }}
         >
           {products?.map((product) => (
-            <Col key={product.id} className="gutter-row" span={6}>
+            <Col key={product.id} className="gutter-row" span={8}>
               <Card
                 hoverable
                 cover={

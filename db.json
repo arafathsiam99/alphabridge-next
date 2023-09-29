@@ -23,7 +23,7 @@
       "Review": "Excellent CPU for gaming and multitasking. It delivers outstanding performance."
     },
     {
-      "id": " 2",
+      "id": "2",
       "Name": "NVIDIA GeForce RTX 3080 Graphics Card",
       "Category": "GPU",
       "Price": 799.99,
@@ -137,11 +137,11 @@
     {
       "id": "1",
       "Name": "CPU / Processor",
-      "Category": "CPU / Processor",
+      "Category": "CPU-Processor",
       "Price": 499.99,
       "Status": "In Stock",
       "Rating": 4.8,
-      "image_url": "/images/71diouNMRHL.jpg"
+      "image_url": "/images/images (2).png"
     },
     {
       "id": "2",
@@ -150,7 +150,7 @@
       "Price": 799.99,
       "Status": "Out of Stock",
       "Rating": 4.9,
-      "image_url": "/images/download (2).jpeg"
+      "image_url": "/images/3962832.png"
     },
     {
       "id": "3",
@@ -159,16 +159,16 @@
       "Price": 149.99,
       "Status": "In Stock",
       "Rating": 4.7,
-      "image_url": "/images/corsair-vengeance-lpx-8gb-ram-01.jpg-600x315w.jpg.webp"
+      "image_url": "/images/908522.png"
     },
     {
       "id": "4",
       "Name": "Power Supply Unit",
-      "Category": "Power Supply Unit",
+      "Category": "Power-Supply-Unit",
       "Price": 149.99,
       "Status": "In Stock",
       "Rating": 4.6,
-      "image_url": "/images/download (1).jpeg"
+      "image_url": "/images/images.png"
     },
     {
       "id": "5",
@@ -177,16 +177,194 @@
       "Price": 169.99,
       "Status": "Out of Stock",
       "Rating": 4.5,
-      "image_url": "/images/download.jpeg"
+      "image_url": "/images/images (1).png"
     },
     {
       "id": "6",
-      "Name": "Others (GPU, Mouse, Keyboard, etc…)",
-      "Category": "Others (GPU, Mouse, Keyboard, etc…)",
+      "Name": "Others",
+      "Category": "Others",
       "Price": 119.99,
       "Status": "In Stock",
       "Rating": 4.7,
-      "image_url": "/images/220-G3-0850-X1_LG_1.png"
+      "image_url": "/images/pngtree-computer-mouse-icon-png-image_3205540.jpg"
+    }
+  ],
+
+  "cpu": [
+    {
+      "id": "1",
+      "Name": "Intel Core i7-10700K",
+      "Category": "Desktop",
+      "Price": 349.99,
+      "Status": "In Stock",
+      "Rating": 4.8,
+      "image_url": "https://example.com/cpu1.jpg"
+    },
+    {
+      "id": "2",
+      "Name": "AMD Ryzen 9 5900X",
+      "Category": "Desktop",
+      "Price": 449.99,
+      "Status": "In Stock",
+      "Rating": 4.9,
+      "image_url": "https://example.com/cpu2.jpg"
+    },
+    {
+      "id": "3",
+      "Name": "Intel Core i9-11900K",
+      "Category": "Desktop",
+      "Price": 499.99,
+      "Status": "Out of Stock",
+      "Rating": 4.7,
+      "image_url": "https://example.com/cpu3.jpg"
+    }
+  ],
+
+  "motherboard": [
+    {
+      "id": "1",
+      "Name": "ASUS ROG Strix B550-F Gaming",
+      "Category": "ATX",
+      "Price": 189.99,
+      "Status": "In Stock",
+      "Rating": 4.7,
+      "image_url": "https://example.com/motherboard1.jpg"
+    },
+    {
+      "id": "2",
+      "Name": "MSI MPG Z590 Gaming Edge WiFi",
+      "Category": "ATX",
+      "Price": 219.99,
+      "Status": "In Stock",
+      "Rating": 4.8,
+      "image_url": "https://example.com/motherboard2.jpg"
+    },
+    {
+      "id": "3",
+      "Name": "GIGABYTE B450M DS3H",
+      "Category": "Micro-ATX",
+      "Price": 79.99,
+      "Status": "In Stock",
+      "Rating": 4.5,
+      "image_url": "https://example.com/motherboard3.jpg"
+    }
+  ],
+
+  "ram": [
+    {
+      "id": "1",
+      "Name": "Corsair Vengeance LPX 16GB DDR4",
+      "Category": "Desktop",
+      "Price": 79.99,
+      "Status": "In Stock",
+      "Rating": 4.6,
+      "image_url": "https://example.com/ram1.jpg"
+    },
+    {
+      "id": "2",
+      "Name": "Crucial Ballistix 32GB DDR4",
+      "Category": "Desktop",
+      "Price": 129.99,
+      "Status": "In Stock",
+      "Rating": 4.7,
+      "image_url": "https://example.com/ram2.jpg"
+    },
+    {
+      "id": "3",
+      "Name": "G.Skill Ripjaws V 8GB DDR4",
+      "Category": "Desktop",
+      "Price": 49.99,
+      "Status": "In Stock",
+      "Rating": 4.5,
+      "image_url": "https://example.com/ram3.jpg"
+    }
+  ],
+
+  "psu": [
+    {
+      "id": "1",
+      "Name": "EVGA 600 BQ, 80+ Bronze 600W",
+      "Category": "ATX",
+      "Price": 59.99,
+      "Status": "In Stock",
+      "Rating": 4.5,
+      "image_url": "https://example.com/psu1.jpg"
+    },
+    {
+      "id": "2",
+      "Name": "Corsair RM750x, 80+ Gold 750W",
+      "Category": "ATX",
+      "Price": 119.99,
+      "Status": "In Stock",
+      "Rating": 4.8,
+      "image_url": "https://example.com/psu2.jpg"
+    },
+    {
+      "id": "3",
+      "Name": "Seasonic S12III 500W, 80+ Bronze",
+      "Category": "ATX",
+      "Price": 54.99,
+      "Status": "In Stock",
+      "Rating": 4.6,
+      "image_url": "https://example.com/psu3.jpg"
+    }
+  ],
+  "monitor": [
+    {
+      "id": "1",
+      "Name": "Dell Ultrasharp U2719DX 27-inch",
+      "Category": "Desktop",
+      "Price": 349.99,
+      "Status": "In Stock",
+      "Rating": 4.8,
+      "image_url": "https://example.com/monitor1.jpg"
+    },
+    {
+      "id": "2",
+      "Name": "ASUS ROG Swift PG279QZ 27-inch",
+      "Category": "Gaming",
+      "Price": 599.99,
+      "Status": "In Stock",
+      "Rating": 4.9,
+      "image_url": "https://example.com/monitor2.jpg"
+    },
+    {
+      "id": "3",
+      "Name": "LG 34WN80C-B 34-inch Ultrawide",
+      "Category": "Ultrawide",
+      "Price": 449.99,
+      "Status": "In Stock",
+      "Rating": 4.7,
+      "image_url": "https://example.com/monitor3.jpg"
+    }
+  ],
+  "others": [
+    {
+      "id": "1",
+      "Name": "Logitech G Pro X Mechanical Gaming Keyboard",
+      "Category": "Gaming",
+      "Price": 129.99,
+      "Status": "In Stock",
+      "Rating": 4.6,
+      "image_url": "https://example.com/keyboard1.jpg"
+    },
+    {
+      "id": "2",
+      "Name": "Logitech G Pro Wireless Gaming Mouse",
+      "Category": "Gaming",
+      "Price": 149.99,
+      "Status": "In Stock",
+      "Rating": 4.7,
+      "image_url": "https://example.com/mouse1.jpg"
+    },
+    {
+      "id": "3",
+      "Name": "Sony WH-1000XM4 Wireless Noise-Canceling Headphones",
+      "Category": "Over-Ear",
+      "Price": 349.99,
+      "Status": "In Stock",
+      "Rating": 4.9,
+      "image_url": "https://example.com/headphones1.jpg"
     }
   ]
 }
