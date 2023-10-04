@@ -8,8 +8,7 @@ export default function App({ Component, pageProps }) {
   return (
     <SessionProvider session={pageProps.session}>
       <>
-        <RootLayout></RootLayout>
-        <Component {...pageProps} />
+      <div >{getLayout(<Component {...pageProps} />)}</div>
       </>
     </SessionProvider>
   );

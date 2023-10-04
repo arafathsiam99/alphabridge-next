@@ -35,7 +35,7 @@ const Categories = ({ categories }) => {
       >
         {categories?.map((category) => (
           <Col key={category.id} className="gutter-row">
-            <Link href={`/categories=category?${category.Category}`}>
+            <Link href={`/category/${category.Category}`}>
               <Card
                 hoverable
                 cover={

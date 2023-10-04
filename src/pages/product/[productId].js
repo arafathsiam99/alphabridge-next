@@ -1,3 +1,4 @@
+import RootLayout from "@/components/Layouts/RootLayout";
 import { EditOutlined } from "@ant-design/icons";
 import { Card, Col, Descriptions, Row } from "antd";
 import Image from "next/image";
@@ -146,4 +147,9 @@ export const getStaticProps = async (context) => {
       featured_products: data,
     },
   };
+};
+
+
+ProductDetailPage.getLayout = function getLayout(page) {
+  return <RootLayout>{page}</RootLayout>;
 };

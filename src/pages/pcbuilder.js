@@ -1,4 +1,5 @@
-import { Button, Col, Divider, Row } from "antd";
+import RootLayout from "@/components/Layouts/RootLayout";
+import { Button, Col, Row } from "antd";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -36,10 +37,10 @@ const PcBuilderPage = () => {
         </Col>
         <Col span={6}>
           <div style={style}>
-            <Link href="/categoires">
-              <Button type="primary" ghost>
-                Choose
-              </Button>
+            <Link href='/componentCard/Cpu-Processor'>
+            <button type="primary" ghost>
+              Choose
+            </button>
             </Link>
           </div>
         </Col>
@@ -64,9 +65,11 @@ const PcBuilderPage = () => {
         </Col>
         <Col span={6}>
           <div style={style}>
-            <Button type="primary" ghost>
+          <Link href='/componentCard/Motherboard'>
+            <button type="primary" ghost>
               Choose
-            </Button>
+            </button>
+            </Link>
           </div>
         </Col>
       </Row>
@@ -90,9 +93,11 @@ const PcBuilderPage = () => {
         </Col>
         <Col span={6}>
           <div style={style}>
-            <Button type="primary" ghost>
+          <Link href='/componentCard/RAM'>
+            <button type="primary" ghost>
               Choose
-            </Button>
+            </button>
+            </Link>
           </div>
         </Col>
       </Row>
@@ -116,9 +121,11 @@ const PcBuilderPage = () => {
         </Col>
         <Col span={6}>
           <div style={style}>
-            <Button type="primary" ghost>
+          <Link href='/componentCard/Power-Supply-Unit'>
+            <button type="primary" ghost>
               Choose
-            </Button>
+            </button>
+            </Link>
           </div>
         </Col>
       </Row>
@@ -147,9 +154,11 @@ const PcBuilderPage = () => {
         </Col>
         <Col span={6}>
           <div style={style}>
-            <Button type="primary" ghost>
+          <Link href='/componentCard/RAM'>
+            <button type="primary" ghost>
               Choose
-            </Button>
+            </button>
+            </Link>
           </div>
         </Col>
       </Row>
@@ -178,9 +187,11 @@ const PcBuilderPage = () => {
         </Col>
         <Col span={6}>
           <div style={style}>
-            <Button type="primary" ghost>
+            <Link href='/componentCard/Monitor'>
+            <button type="primary" ghost>
               Choose
-            </Button>
+            </button>
+            </Link>
           </div>
         </Col>
       </Row>
@@ -189,3 +200,7 @@ const PcBuilderPage = () => {
 };
 
 export default PcBuilderPage;
+
+PcBuilderPage.getLayout = function getLayout(page) {
+  return <RootLayout>{page}</RootLayout>;
+};

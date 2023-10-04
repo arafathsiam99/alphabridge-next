@@ -7,57 +7,57 @@ const items = [
   {
     key: "1",
     label: (
-      <a target="_blank" rel="noopener noreferrer">
+      <Link href={`/category/CPU-Processor`}>
         CPU / Processor
-      </a>
+      </Link>
     ),
   },
   {
     key: "2",
     label: (
-      <a target="_blank" rel="noopener noreferrer">
+      <Link href={`/category/Motherboard`}>
         Motherboard
-      </a>
+      </Link>
     ),
   },
   {
     key: "3",
     label: (
-      <a target="_blank" rel="noopener noreferrer">
+      <Link href={`/category/RAM`}>
         RAM
-      </a>
+      </Link>
     ),
   },
   {
     key: "4",
     label: (
-      <a target="_blank" rel="noopener noreferrer">
+      <Link href={`/category/Power-Supply-Unit`}>
         Power Supply Unit
-      </a>
+      </Link>
     ),
   },
   {
     key: "5",
     label: (
-      <a target="_blank" rel="noopener noreferrer">
+      <Link href={`/category/RAM`}>
         Storage Device
-      </a>
+      </Link>
     ),
   },
   {
     key: "6",
     label: (
-      <a target="_blank" rel="noopener noreferrer">
+      <Link href={`/category/Monitor`}>
         Monitor
-      </a>
+      </Link>
     ),
   },
   {
     key: "7",
     label: (
-      <a target="_blank" rel="noopener noreferrer">
+      <Link href={`/category/Others`}>
         Others
-      </a>
+      </Link>
     ),
   },
 ];

@@ -190,7 +190,7 @@
     }
   ],
 
-  "cpu": [
+  "CPU-Processor": [
     {
       "id": "1",
       "Name": "Intel Core i7-10700K",
@@ -198,7 +198,7 @@
       "Price": 349.99,
       "Status": "In Stock",
       "Rating": 4.8,
-      "image_url": "https://example.com/cpu1.jpg"
+      "image_url": "/images/220-G3-0850-X1_LG_1.png"
     },
     {
       "id": "2",
@@ -207,7 +207,7 @@
       "Price": 449.99,
       "Status": "In Stock",
       "Rating": 4.9,
-      "image_url": "https://example.com/cpu2.jpg"
+      "image_url": "/images/220-G3-0850-X1_LG_1.png"
     },
     {
       "id": "3",
@@ -216,11 +216,11 @@
       "Price": 499.99,
       "Status": "Out of Stock",
       "Rating": 4.7,
-      "image_url": "https://example.com/cpu3.jpg"
+      "image_url": "/images/220-G3-0850-X1_LG_1.png"
     }
   ],
 
-  "motherboard": [
+  "Motherboard": [
     {
       "id": "1",
       "Name": "ASUS ROG Strix B550-F Gaming",
@@ -228,7 +228,7 @@
       "Price": 189.99,
       "Status": "In Stock",
       "Rating": 4.7,
-      "image_url": "https://example.com/motherboard1.jpg"
+      "image_url": "/images/220-G3-0850-X1_LG_1.png"
     },
     {
       "id": "2",
@@ -237,7 +237,7 @@
       "Price": 219.99,
       "Status": "In Stock",
       "Rating": 4.8,
-      "image_url": "https://example.com/motherboard2.jpg"
+      "image_url": "/images/220-G3-0850-X1_LG_1.png"
     },
     {
       "id": "3",
@@ -246,11 +246,11 @@
       "Price": 79.99,
       "Status": "In Stock",
       "Rating": 4.5,
-      "image_url": "https://example.com/motherboard3.jpg"
+      "image_url": "/images/220-G3-0850-X1_LG_1.png"
     }
   ],
 
-  "ram": [
+  "RAM": [
     {
       "id": "1",
       "Name": "Corsair Vengeance LPX 16GB DDR4",
@@ -258,7 +258,7 @@
       "Price": 79.99,
       "Status": "In Stock",
       "Rating": 4.6,
-      "image_url": "https://example.com/ram1.jpg"
+      "image_url": "/images/220-G3-0850-X1_LG_1.png"
     },
     {
       "id": "2",
@@ -267,7 +267,7 @@
       "Price": 129.99,
       "Status": "In Stock",
       "Rating": 4.7,
-      "image_url": "https://example.com/ram2.jpg"
+      "image_url": "/images/220-G3-0850-X1_LG_1.png"
     },
     {
       "id": "3",
@@ -276,11 +276,11 @@
       "Price": 49.99,
       "Status": "In Stock",
       "Rating": 4.5,
-      "image_url": "https://example.com/ram3.jpg"
+      "image_url": "/images/220-G3-0850-X1_LG_1.png"
     }
   ],
 
-  "psu": [
+  "Power-Supply-Unit": [
     {
       "id": "1",
       "Name": "EVGA 600 BQ, 80+ Bronze 600W",
@@ -288,7 +288,7 @@
       "Price": 59.99,
       "Status": "In Stock",
       "Rating": 4.5,
-      "image_url": "https://example.com/psu1.jpg"
+      "image_url": "/images/220-G3-0850-X1_LG_1.png"
     },
     {
       "id": "2",
@@ -297,7 +297,7 @@
       "Price": 119.99,
       "Status": "In Stock",
       "Rating": 4.8,
-      "image_url": "https://example.com/psu2.jpg"
+      "image_url": "/images/220-G3-0850-X1_LG_1.png"
     },
     {
       "id": "3",
@@ -306,10 +306,10 @@
       "Price": 54.99,
       "Status": "In Stock",
       "Rating": 4.6,
-      "image_url": "https://example.com/psu3.jpg"
+      "image_url": "/images/220-G3-0850-X1_LG_1.png"
     }
   ],
-  "monitor": [
+  "Monitor": [
     {
       "id": "1",
       "Name": "Dell Ultrasharp U2719DX 27-inch",
@@ -317,7 +317,7 @@
       "Price": 349.99,
       "Status": "In Stock",
       "Rating": 4.8,
-      "image_url": "https://example.com/monitor1.jpg"
+      "image_url": "/images/220-G3-0850-X1_LG_1.png"
     },
     {
       "id": "2",
@@ -326,7 +326,7 @@
       "Price": 599.99,
       "Status": "In Stock",
       "Rating": 4.9,
-      "image_url": "https://example.com/monitor2.jpg"
+      "image_url": "/images/220-G3-0850-X1_LG_1.png"
     },
     {
       "id": "3",
@@ -335,10 +335,10 @@
       "Price": 449.99,
       "Status": "In Stock",
       "Rating": 4.7,
-      "image_url": "https://example.com/monitor3.jpg"
+      "image_url": "/images/220-G3-0850-X1_LG_1.png"
     }
   ],
-  "others": [
+  "Others": [
     {
       "id": "1",
       "Name": "Logitech G Pro X Mechanical Gaming Keyboard",
@@ -346,7 +346,7 @@
       "Price": 129.99,
       "Status": "In Stock",
       "Rating": 4.6,
-      "image_url": "https://example.com/keyboard1.jpg"
+      "image_url": "/images/220-G3-0850-X1_LG_1.png"
     },
     {
       "id": "2",
@@ -355,7 +355,7 @@
       "Price": 149.99,
       "Status": "In Stock",
       "Rating": 4.7,
-      "image_url": "https://example.com/mouse1.jpg"
+      "image_url": "/images/220-G3-0850-X1_LG_1.png"
     },
     {
       "id": "3",
@@ -364,7 +364,7 @@
       "Price": 349.99,
       "Status": "In Stock",
       "Rating": 4.9,
-      "image_url": "https://example.com/headphones1.jpg"
+      "image_url": "/images/220-G3-0850-X1_LG_1.png"
     }
   ]
 }
